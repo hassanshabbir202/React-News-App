@@ -1,0 +1,10 @@
+.dark-mode-btns{
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+}
+.dark-mode-btns:hover{
+    background-color: #fff;
+    color: black;
+}

@@ -1,0 +1,43 @@
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin-left: 7.2rem;
+    height: 400px;
+    width: 350px;
+}
+@media screen and (max-width:578px) {
+    .card{
+        margin-left: 5.2rem;
+        height: 400px;
+        width: 350px;
+    }
+}
+@media screen and (max-width:503px) {
+    .card{
+        margin-left: 4.2rem;
+    }
+}
+@media screen and (max-width:469px) {
+    .card{
+        margin-left: 3.2rem;
+    }
+}
+@media screen and (max-width:437px) {
+    .card{
+        margin-left: 2.2rem;
+    }
+}
+@media screen and (max-width:415px) {
+    .card{
+        margin-left: 1.2rem;
+    }
+}
+@media screen and (max-width:390px) {
+    .card{
+        margin-left: 1.2rem;
+        height: 420px;
+        width: 330px;
+    }
+}
